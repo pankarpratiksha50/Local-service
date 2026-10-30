@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # LocalConnect — MERN + AI/ML Starter
 
 A beginner-friendly starter for a local-services marketplace connecting customers with plumbers, electricians, carpenters, painters and other professionals.
@@ -91,3 +92,6 @@ Never use a publicly accessible admin-registration option in a real deployment. 
 3. Evaluate using a train/test split, classification report and confusion matrix.
 4. Build service recommendations from category, area, availability, rating and historical interaction data.
 5. Only build demand forecasting once you have sufficient genuine time-stamped booking history.
+=======
+# Local-service
+>>>>>>> 1e5ec01bf1fa9622a4fb03e0ebb0657bd102a7d2
