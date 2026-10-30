@@ -1,5 +1,5 @@
-<<<<<<< HEAD
-# LocalConnect — MERN + AI/ML Starter
+
+# LocalConnect — MERN + AI/ML
 
 A beginner-friendly starter for a local-services marketplace connecting customers with plumbers, electricians, carpenters, painters and other professionals.
 
@@ -13,56 +13,6 @@ A beginner-friendly starter for a local-services marketplace connecting customer
 - `.env.example` files and setup instructions
 
 This is a starter project, not a production-ready marketplace. Before production, add comprehensive tests, rate limiting, email verification, secure cookie/token strategy, provider identity checks, robust booking conflict prevention, upload validation and monitoring.
-
-## Prerequisites
-- Node.js 20+ and npm
-- MongoDB local install or MongoDB Atlas connection string
-- Python 3.10+
-
-## 1. Configure environment files
-Copy:
-- `server/.env.example` to `server/.env`
-- `ml-service/.env.example` to `ml-service/.env` (optional for this demo)
-
-Set a strong `JWT_SECRET` and your MongoDB URI in `server/.env`.
-
-## 2. Start the backend
-```bash
-cd server
-npm install
-npm run dev
-```
-Default API: `http://localhost:5000`
-
-## 3. Start the frontend
-In another terminal:
-```bash
-cd client
-npm install
-npm run dev
-```
-Open the Vite URL printed in the terminal (usually `http://localhost:5173`).
-
-## 4. Start the ML service (optional)
-In another terminal:
-```bash
-cd ml-service
-python -m venv venv
-```
-Windows:
-```bash
-venv\Scripts\activate
-```
-macOS/Linux:
-```bash
-source venv/bin/activate
-```
-Then:
-```bash
-pip install -r requirements.txt
-uvicorn app:app --reload --port 8000
-```
-ML API docs: `http://localhost:8000/docs`
 
 ## Demo workflow
 1. Register an account with role `provider`.
@@ -93,5 +43,3 @@ Never use a publicly accessible admin-registration option in a real deployment. 
 4. Build service recommendations from category, area, availability, rating and historical interaction data.
 5. Only build demand forecasting once you have sufficient genuine time-stamped booking history.
 =======
-# Local-service
->>>>>>> 1e5ec01bf1fa9622a4fb03e0ebb0657bd102a7d2
